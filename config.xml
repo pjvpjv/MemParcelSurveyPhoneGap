@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        versionCode = "1" 
+        version     = "1.0.1" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Memphis Parcel Survey</name>
+
+    <description>
+        A parcel/property survey application used for community development. Users and volunteers can report property conditions and code violations so that these community organizations can work to reduce urban blight and serve their neighborhoods.
+    </description>
+
+    <author href="http://www.petervanwylen.com/" email="peter@petervanwylen.com">
+        Peter VanWylen 
+    </author>
+
+	<gap:platform name="ios" />
+	<gap:platform name="android" />
+	
+	<preference name="phonegap-version" value="2.9.0" />
+	<preference name="orientation" value="portrait" />
+	<preference name="detect-data-types" value="false" />
+	
+	<gap:splash src="splash/ios/Default-568h@2x~iphone.png" gap:platform="ios" width="320" height="480" />
+	
+	<access origin="*" />
+</widget>
