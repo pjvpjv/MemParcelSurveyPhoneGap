@@ -24,7 +24,13 @@
 	<preference name="orientation" value="portrait" />
 	<preference name="detect-data-types" value="false" />
 	
-	<gap:splash src="splash/ios/Default-568h@2x~iphone.png" gap:platform="ios" width="320" height="480" />
-	
+	<gap:splash src="splash/ios/splash320x480.png" gap:platform="ios" width="320" height="480" />
+	<gap:splash src="splash/ios/splash640x960.png" gap:platform="ios" width="640" height="960" />
+	<gap:splash src="splash/ios/splash640x1136.png" gap:platform="ios" width="640" height="1136" />
+	<gap:splash src="splash/ios/splash1024x748.png" gap:platform="ios" width="1024" height="748" />
+	<gap:splash src="splash/ios/splash768x1004.png" gap:platform="ios" width="768" height="1004" />
+	<gap:splash src="splash/ios/splash2048x1496.png" gap:platform="ios" width="2048" height="1496" />
+	<gap:splash src="splash/ios/splash1536x2008.png" gap:platform="ios" width="1536" height="2008" />
+
 	<access origin="*" />
 </widget>
