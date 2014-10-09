@@ -59,5 +59,19 @@
 	<icon src="icons/drawable-xhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xhdpi" />
 	<icon src="icons/drawable-xxhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xxhdpi" />
 	<icon src="icons/drawable-xxxhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xxxhdpi" />
+	
+	<gap:splash src="splash/res-long-land-ldpi/default.png" gap:platform="android" gap:qualifier="land-ldpi" />
+	<gap:splash src="splash/res-long-land-mdpi/default.png" gap:platform="android" gap:qualifier="land-mdpi" />
+	<gap:splash src="splash/res-long-land-hdpi/default.png" gap:platform="android" gap:qualifier="land-hdpi" />
+	<gap:splash src="splash/res-long-land-xdpi/default.png" gap:platform="android" gap:qualifier="land-xdpi" />
+	<gap:splash src="splash/res-long-land-xxdpi/default.png" gap:platform="android" gap:qualifier="land-xxdpi" />
+	<gap:splash src="splash/res-long-land-xxxdpi/default.png" gap:platform="android" gap:qualifier="land-xxxdpi" />
+	
+	<gap:splash src="splash/res-long-port-ldpi/default.png" gap:platform="android" gap:qualifier="port-ldpi" />
+	<gap:splash src="splash/res-long-port-mdpi/default.png" gap:platform="android" gap:qualifier="port-mdpi" />
+	<gap:splash src="splash/res-long-port-hdpi/default.png" gap:platform="android" gap:qualifier="port-hdpi" />
+	<gap:splash src="splash/res-long-port-xdpi/default.png" gap:platform="android" gap:qualifier="port-xdpi" />
+	<gap:splash src="splash/res-long-port-xxdpi/default.png" gap:platform="android" gap:qualifier="port-xxdpi" />
+	<gap:splash src="splash/res-long-port-xxxdpi/default.png" gap:platform="android" gap:qualifier="port-xxxdpi" />
 
 </widget>
