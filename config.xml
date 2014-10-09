@@ -53,5 +53,11 @@
 	<gap:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
 	<gap:plugin name="org.apache.cordova.geolocation" version="0.3.10" />
 	<gap:plugin name="org.apache.cordova.splashscreen" version="0.3.3" />
+	
+	<icon src="icons/drawable-mdpi/ic_launcher.png" gap:platform="android" gap:qualifier="mdpi" />
+	<icon src="icons/drawable-hdpi/ic_launcher.png" gap:platform="android" gap:qualifier="hdpi" />
+	<icon src="icons/drawable-xhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xhdpi" />
+	<icon src="icons/drawable-xxhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xxhdpi" />
+	<icon src="icons/drawable-xxxhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xxxhdpi" />
 
 </widget>
