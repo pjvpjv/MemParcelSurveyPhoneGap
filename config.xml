@@ -2,8 +2,8 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.phonegap.example"
-        versionCode = "7" 
-        version     = "1.0.16" >
+        versionCode = "8" 
+        version     = "1.0.17" >
 
     <!-- versionCode is optional and Android only -->
 
@@ -22,6 +22,10 @@
 	
 	<preference name="phonegap-version" value="3.6.3" />
 	<preference name="orientation" value="portrait" />
+	
+	<preference name="StatusBarOverlaysWebView" value="false"/>
+	<preference name="StatusBarBackgroundColor" value="#000000"/>
+	<preference name="StatusBarStyle" value="lightcontent" />
 	
 	<gap:config-file platform="ios" parent="UISupportedInterfaceOrientations~ipad" overwrite="true">
 	<array>
@@ -53,6 +57,7 @@
 	<gap:plugin name="org.apache.cordova.dialogs"/>
 	<gap:plugin name="org.apache.cordova.geolocation"/>
 	<gap:plugin name="org.apache.cordova.splashscreen"/>
+	<gap:plugin name="org.apache.cordova.statusbar"/>
 	
 	<icon src="icons/drawable-mdpi/ic_launcher.png" gap:platform="android" gap:qualifier="mdpi" />
 	<icon src="icons/drawable-hdpi/ic_launcher.png" gap:platform="android" gap:qualifier="hdpi" />
