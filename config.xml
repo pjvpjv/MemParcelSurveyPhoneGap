@@ -20,7 +20,7 @@
 	<gap:platform name="ios" />
 	<gap:platform name="android" />
 	
-	<preference name="phonegap-version" value="3.4.0" />
+	<preference name="phonegap-version" value="3.6.3" />
 	<preference name="orientation" value="portrait" />
 	
 	<preference name="StatusBarOverlaysWebView" value="false"/>
@@ -66,7 +66,6 @@
 	<gap:plugin name="org.apache.cordova.device-orientation"/>
 	<gap:plugin name="org.apache.cordova.dialogs"/>
 	<gap:plugin name="org.apache.cordova.geolocation"/>
-	<gap:plugin name="org.apache.cordova.splashscreen"/>
 	<gap:plugin name="org.apache.cordova.statusbar"/>
 	
 	<icon src="icons/drawable-mdpi/ic_launcher.png" gap:platform="android" gap:qualifier="mdpi" />
