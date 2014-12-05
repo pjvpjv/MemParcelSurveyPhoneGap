@@ -7,7 +7,7 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Memphis Parcel Survey</name>
+    <name>ParcelSurvey</name>
 
     <description>
         A parcel/property survey application used for community development. Users and volunteers can report property conditions and code violations so that these community organizations can work to reduce urban blight and serve their neighborhoods.
