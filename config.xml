@@ -2,8 +2,8 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.petervanwylen.memparcel"
-        versionCode = "12" 
-        version     = "1.0.21" >
+        versionCode = "13" 
+        version     = "1.0.22" >
 
     <!-- versionCode is optional and Android only -->
 
@@ -20,7 +20,7 @@
 	<gap:platform name="ios" />
 	<gap:platform name="android" />
 	
-	<preference name="phonegap-version" value="3.6.3" />
+	<preference name="phonegap-version" value="3.3.0" />
 	<preference name="orientation" value="portrait" />
 	
 	<preference name="StatusBarOverlaysWebView" value="false"/>
