@@ -69,14 +69,15 @@
 	<access origin="*" />
 
     <!-- Core plugins -->
-    <plugin name="cordova-plugin-camera" source="npm">
-      <variable name="CAMERA_USAGE_DESCRIPTION" value="Allow the app to use your camera for taking pictures of properties." />
-      <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Allow the app to access your photos for retrieving & submitting past photos." />
-    </plugin>
+    <gap:plugin name="cordova-plugin-camera" source="npm" version="2.3.0" />
 	<plugin name="cordova-plugin-device-orientation"/>
 	<plugin name="cordova-plugin-dialogs"/>
 	<plugin name="cordova-plugin-geolocation"/>
 	<plugin name="cordova-plugin-statusbar"/>
+	
+	<gap:config-file platform="ios" parent="NSPhotoLibraryUsageDescription" overwrite="true">
+    <string>This app accesses the Photo Library when you choose to upload a photo of a property.</string>
+  	</gap:config-file>
 	
 	<icon src="icons/drawable-mdpi/ic_launcher.png" gap:platform="android" gap:qualifier="mdpi" />
 	<icon src="icons/drawable-hdpi/ic_launcher.png" gap:platform="android" gap:qualifier="hdpi" />
