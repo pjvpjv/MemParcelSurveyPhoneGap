@@ -69,11 +69,11 @@
 	<access origin="*" />
 
     <!-- Core plugins -->
-    <plugin name="org.apache.cordova.camera"/>
-	<plugin name="org.apache.cordova.device-orientation"/>
-	<plugin name="org.apache.cordova.dialogs"/>
-	<plugin name="org.apache.cordova.geolocation"/>
-	<plugin name="org.apache.cordova.statusbar"/>
+    <plugin name="cordova-plugin-camera"/>
+	<plugin name="cordova-plugin-device-orientation"/>
+	<plugin name="cordova-plugin-dialogs"/>
+	<plugin name="cordova-plugin-geolocation"/>
+	<plugin name="cordova-plugin-statusbar"/>
 	
 	<icon src="icons/drawable-mdpi/ic_launcher.png" gap:platform="android" gap:qualifier="mdpi" />
 	<icon src="icons/drawable-hdpi/ic_launcher.png" gap:platform="android" gap:qualifier="hdpi" />
