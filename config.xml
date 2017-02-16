@@ -69,10 +69,10 @@
 	<access origin="*" />
 
     <!-- Core plugins -->
-    <gap:plugin name="cordova-plugin-camera" source="npm" version="2.3.0" >
+    <plugin name="cordova-plugin-camera" source="npm">
       <variable name="CAMERA_USAGE_DESCRIPTION" value="Allow the app to use your camera for taking pictures of properties." />
       <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Allow the app to access your photos for retrieving & submitting past photos." />
-    </gap:plugin>
+    </plugin>
 	<plugin name="cordova-plugin-device-orientation"/>
 	<plugin name="cordova-plugin-dialogs"/>
 	<plugin name="cordova-plugin-geolocation"/>
