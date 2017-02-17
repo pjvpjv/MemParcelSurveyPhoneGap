@@ -2,8 +2,8 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.petervanwylen.memparcel"
-        versionCode = "15" 
-        version     = "1.0.25" >
+        versionCode = "16" 
+        version     = "1.0.26" >
 
     <!-- versionCode is optional and Android only -->
 
@@ -20,7 +20,7 @@
 	<gap:platform name="ios" />
 	<gap:platform name="android" />
 	
-	<preference name="phonegap-version" value="cli-5.4.1" />
+	<preference name="phonegap-version" value="cli-6.5.0" />
 	<preference name="orientation" value="portrait" />
 	<preference name="android-build-tool" value="gradle" />
 	
